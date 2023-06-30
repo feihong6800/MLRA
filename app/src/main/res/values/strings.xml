@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MLRA</string>
+    <string name="main_login">LOGIN</string>
+    <string name="main_register">REGISTER</string>
+</resources>
