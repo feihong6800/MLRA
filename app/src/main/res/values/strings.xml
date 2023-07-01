@@ -2,4 +2,6 @@
     <string name="app_name">MLRA</string>
     <string name="main_login">LOGIN</string>
     <string name="main_register">REGISTER</string>
+    <string name="tv_key_group">KEY GROUP</string>
+    <string name="tv_a_plus">A Plus Properties</string>
 </resources>
