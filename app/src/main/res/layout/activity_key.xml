@@ -16,6 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="UserName"
@@ -27,6 +28,21 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintTop_toBottomOf="@id/username"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
