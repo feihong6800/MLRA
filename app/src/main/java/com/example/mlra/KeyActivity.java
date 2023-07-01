@@ -22,6 +22,7 @@ public class KeyActivity extends AppCompatActivity {
         //Toolbar
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.getNavigationIcon().setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
         toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_left));
 
