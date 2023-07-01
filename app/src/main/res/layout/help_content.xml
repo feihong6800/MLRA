@@ -13,14 +13,12 @@
         android:layout_height="36dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:background="@color/super_gray"
         android:gravity="center">
 
         <View
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:background="@drawable/ic_arrow_up"
-            android:backgroundTint="@color/white"/>
+            android:background="@drawable/ic_arrow_up"/>
     </RelativeLayout>
 
     <TextView
@@ -29,22 +27,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toStartOf="@+id/help_button"
-        android:background="@color/super_gray"
         android:padding="8dp"
         android:text="Help"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"/>
 
-    <com.github.aakira.expandablelayout.ExpandableLinearLayout
-        android:id="@+id/expandable_layout"
-        app:ael_duration="400"
-        app:ael_expanded="false"
-        app:ael_interpolator="bounce"
+    <net.cachapa.expandablelayout.ExpandableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_help"
-        android:orientation="vertical">
+        app:el_duration="1000"
+        app:el_expanded="false"
+        app:el_parallax="0.5"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv_help">
 
         <TextView
             android:id="@+id/help_answer"
@@ -57,5 +53,6 @@
             android:text="Helped"
             android:textColor="@color/black"
             android:textSize="16sp" />
-    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+    </net.cachapa.expandablelayout.ExpandableLayout>
 </RelativeLayout>
